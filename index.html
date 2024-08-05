@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Library</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #2a0047; /* Dark purple background */
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .game-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .button {
+            width: 150px;
+            height: 150px;
+            background-color: #4a0080; /* Slightly lighter purple */
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background-size: cover;
+            background-position: center;
+            transition: background-color 0.3s, transform 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1em;
+            color: transparent; /* Hide text */
+            overflow: hidden;
+        }
+        .button:hover {
+            background-color: #6a00b4; /* Even lighter purple on hover */
+            transform: scale(1.05); /* Slight zoom effect */
+        }
+        /* Example game button icons */
+        .button.game1 { background-image: url('path/to/game1-icon.png'); }
+        .button.game2 { background-image: url('path/to/game2-icon.png'); }
+        .button.game3 { background-image: url('path/to/game3-icon.png'); }
+        .button.game4 { background-image: url('path/to/game4-icon.png'); }
+        .button.game5 { background-image: url('path/to/game5-icon.png'); }
+        .button.game6 { background-image: url('path/to/game6-icon.png'); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Whale Games</h1>
+        <div class="game-buttons">
+            <a href="game1.html" class="button game1"></a>
+            <a href="game2.html" class="button game2"></a>
+            <a href="game3.html" class="button game3"></a>
+            <a href="game4.html" class="button game4"></a>
+            <a href="game5.html" class="button game5"></a>
+            <a href="game6.html" class="button game6"></a>
+        </div>
+    </div>
+</body>
+</html>
