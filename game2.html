@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Name</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #2a0047; /* Dark purple background */
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .embed-box {
+            width: 80%;
+            max-width: 800px;
+            height: 450px;
+            margin: 0 auto 20px;
+            background-color: #4a0080; /* Background for embed box */
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+        .embed-box iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .game-info {
+            margin-top: 20px;
+        }
+        .game-info h1 {
+            font-size: 2em;
+        }
+        .game-info p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+        .fullscreen {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #6a00b4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+        }
+        .fullscreen:hover {
+            background-color: #8a00e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="embed-box">
+            <!-- Replace with your actual embed code -->
+            <iframe allow=&quot;autoplay; fullscreen *; geolocation; microphone; camera; midi; monetization; xr-spatial-tracking; gamepad; gyroscope; accelerometer; xr; cross-origin-isolated; web-share&quot; allowtransparency=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; msallowfullscreen=&quot;true&quot; src=&quot;https://html-classic.itch.zone/html/10091634/index.html&quot; id=&quot;game_drop&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;no&quot;></iframe>
+        </div>
+        <div class="game-info">
+            <h1>Paper Minecraft</h1>
+            <p>Game Creator: Jurassic_World123 (Forked From Griffpatch)</p>
+            <p>Game Release Date: May 06, 2023</p>
+        </div>
+        <button class="fullscreen">Full Screen</button>
+    </div>
+</body>
+</html>
